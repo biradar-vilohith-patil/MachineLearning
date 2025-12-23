@@ -1,0 +1,61 @@
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #0b0b0f 0%,     /* Midnight Black */
+        #1a1a1f 45%,    /* Dark Charcoal */
+        #3a0f14 100%    /* Deep Crimson */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f5d27a;   /* Royal Gold text */
+}
+
+/* Cards */
+.card{
+    background: linear-gradient(
+        145deg,
+        #111217,
+        #1c1d23
+    );
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    margin-bottom: 25px;
+    color: #f5d27a;
+}
+
+/* Headings */
+h1, h2, h3{
+    color: #f5d27a;
+    letter-spacing: 1px;
+}
+
+/* Metric Box */
+div[data-testid="metric-container"]{
+    background: linear-gradient(
+        135deg,
+        #14151b,
+        #22232b
+    );
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    color: #e6c36a;
+}
+
+.prediction-box{
+    background: linear-gradient(
+        135deg,
+        #6b0f1a,  
+        #b88a2e,   
+        #2a2a2a    
+    );
+    padding: 22px;
+    border-radius: 14px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #0b0b0f;
+    margin-top: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
