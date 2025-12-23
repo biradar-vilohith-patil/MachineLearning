@@ -108,5 +108,5 @@ st.markdown('<div class = "card">' , unsafe_allow_html=True)
 st.subheader("Predict Tip amount")
 bill = st.slider("Total_bill" , float(df.total_bill.min()) , float(df.total_bill.max()) , 30.0)
 tip = model.predict(scaler.transform([[bill]]))[0]
-st.markdown(f'<div class = "prediction-box> Prdict Tip : $ {tip : .2f} </div>' , unsafe_allow_html=True)
+st.markdown(f'<div class = "prediction-box"> Prdict Tip : $ {tip : .2f} </div>' , unsafe_allow_html=True)
 st.markdown('</div>' , unsafe_allow_html = True)
